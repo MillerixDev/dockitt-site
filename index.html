@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DockItt</title>
+<meta name="description" content="DockItt: build your bucket lists, plan them into your weeks, and keep a photo diary of everything you tick off.">
+<style>
+  :root {
+    --ground: #F7F7F5; --surface: #FFFFFF; --border: #E4E2DC;
+    --ink: #16181D; --ink-soft: #5B6070; --accent: #2F5BEA;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0F1115; --surface: #191C22; --border: #2A2E37;
+      --ink: #F2F3F5; --ink-soft: #A3A9B6; --accent: #6B8AFF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 20px 80px; }
+  h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 12px; }
+  h2 { font-size: 21px; margin: 40px 0 8px; }
+  .lede { font-size: 20px; color: var(--ink-soft); margin: 0 0 32px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+    padding: 20px; margin: 16px 0;
+  }
+  .card p { margin: 4px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--ink-soft); font-size: 15px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>DockItt</h1>
+  <p class="lede">Build your bucket lists, plan them into your weeks, and keep a photo diary of everything you tick off.</p>
+
+  <h2>Support</h2>
+  <div class="card">
+    <p>Questions, bugs or ideas? Email <a href="mailto:hello.dockitt@millerixdev.com">hello.dockitt@millerixdev.com</a> and we'll get back to you.</p>
+  </div>
+
+  <h2>Your account and data</h2>
+  <div class="card">
+    <p>You can delete your account and everything in it from <strong>Settings → Delete account</strong> in the app.</p>
+    <p>Read our <a href="privacy">privacy policy</a>.</p>
+  </div>
+
+  <footer>© 2026 Millerix (Amy Miller)</footer>
+</main>
+</body>
+</html>
